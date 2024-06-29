@@ -1,1 +1,1 @@
-https://instagram-clone-lzlpymwnf-serhat-kocs-projects.vercel.app/
+https://instagram-clone-navy-alpha.vercel.app/
