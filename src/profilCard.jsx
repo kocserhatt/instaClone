@@ -1,8 +1,10 @@
 import { Stack } from "@mui/material"
 import { Box } from "@mui/system"
 import { Avatar } from "@mui/material"
+import { LikeAndComments } from "./LikeAndComments"
 
-export const ProfilCard = () => {
+
+export const ProfilCard = ({id}) => {
     return (
         <Stack>
             <Stack flexDirection={"row"} justifyContent={"space-between"} alignItems={"center"}>
@@ -13,8 +15,10 @@ export const ProfilCard = () => {
                 <Box>...</Box>
                 </Stack>
             <Stack height="300px" width="500px" margin={"auto"} >
-            <img src="https://picsum.photos/200/300?random=1"/>
+            <img src={`https://picsum.photos/500/300?random=${id}`}/>
             </Stack>
+
+            <LikeAndComments/>
         </Stack>
     )
     }
