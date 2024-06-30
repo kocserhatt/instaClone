@@ -10,7 +10,7 @@ export const ProfileHeading = () => {
         >
             <Stack direction="row" gap={3} alignItems="center"
             >
-                <Avatar src="./src/assets/serhat.jpg" />
+                <Avatar src="../../public/serhat.jpg" />
                 <Box>koc.serhatt</Box>
             </Stack>
             <Box>...</Box>
